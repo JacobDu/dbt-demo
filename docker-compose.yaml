@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  clickhouse:
+    image: 'clickhouse/clickhouse-server:24.2.1-alpine'
+    user: '101:101'
+    container_name: clickhouse
+    hostname: clickhouse
+    ports:
+      - '8123:8123'
+      - '9000:9000'
