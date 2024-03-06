@@ -1,6 +1,6 @@
-# NPM IR Data Model
+# Data Model
 
-使用 DBT 对 NPM IR 进行数据建模。
+使用 DBT 进行数据建模的测试环境。
 
 ## 环境准备
 
